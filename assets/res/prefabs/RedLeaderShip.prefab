@@ -1,0 +1,309 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "",
+    "_objFlags": 0,
+    "_native": "",
+    "data": {
+      "__id__": 1
+    },
+    "optimizationPolicy": 0,
+    "asyncLoadAssets": false,
+    "readonly": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "RedLeaderShip",
+    "_objFlags": 0,
+    "_parent": null,
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 2
+      },
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 4
+      },
+      {
+        "__id__": 6
+      },
+      {
+        "__id__": 9
+      },
+      {
+        "__id__": 10
+      }
+    ],
+    "_prefab": {
+      "__id__": 11
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 128,
+      "height": 128
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -287.083,
+        -333.117,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 3,
+    "groupIndex": 3,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": {
+      "__uuid__": "cabbdcab-6e42-4e87-9427-667f9e50fa6e"
+    },
+    "_type": 0,
+    "_sizeMode": 2,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": false,
+    "_atlas": {
+      "__uuid__": "3da672b9-9c94-42da-92e1-bea83c13dec2"
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "9db5fru795Fq5oATV1Wekaq",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "HP": 0,
+    "target": null,
+    "_ready": false,
+    "_gun": null,
+    "_animn": null,
+    "_isShootDown": false,
+    "_N$isAimPlayer": false,
+    "_id": ""
+  },
+  {
+    "__type__": "057e3QQJ0FMbYyMmM9TX8RV",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "_N$patrolOption": 3,
+    "_N$patrol": {
+      "__id__": 5
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "CircularPatrol",
+    "range": 50,
+    "duration": 1
+  },
+  {
+    "__type__": "68d35tBd05GpZRUsG+Q1R40",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "gunBarrelPosition": [
+      {
+        "__type__": "cc.Vec2",
+        "x": 0,
+        "y": 58
+      }
+    ],
+    "isRandomShotInterval": false,
+    "shotInterval": 1,
+    "currentGunIdx": 0,
+    "gunList": [
+      {
+        "__id__": 7
+      }
+    ],
+    "_id": ""
+  },
+  {
+    "__type__": "GunData",
+    "_N$gunOption": 1,
+    "_N$gun": {
+      "__id__": 8
+    }
+  },
+  {
+    "__type__": "MultiDirectionGun",
+    "_pool": null,
+    "_gameplayMgr": null,
+    "target": null,
+    "shotPoints": [
+      {
+        "__type__": "cc.Vec2",
+        "x": 10,
+        "y": 0
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -10,
+        "y": 0
+      }
+    ],
+    "damage": 1,
+    "speed": 5,
+    "_N$bullet": {
+      "__uuid__": "013d0d70-61b1-4076-8f82-736df1a5cafc"
+    },
+    "spreadLine": 4,
+    "spreadAngle": 10
+  },
+  {
+    "__type__": "cc.Animation",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "_defaultClip": {
+      "__uuid__": "756f9d47-1e9e-4169-a810-59d9f99a0888"
+    },
+    "_clips": [
+      {
+        "__uuid__": "4044fc22-f861-4c58-9d78-c4a0cd1a8504"
+      },
+      {
+        "__uuid__": "5ec41892-6ed2-41e5-9537-b2776b3b11e1"
+      }
+    ],
+    "playOnLoad": false,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PolygonCollider",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "tag": 0,
+    "_offset": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "points": [
+      {
+        "__type__": "cc.Vec2",
+        "x": -26.8,
+        "y": -42.9
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 25.5,
+        "y": -43.2
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 46.1,
+        "y": -0.4
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 33.1,
+        "y": 37.2
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 14.5,
+        "y": 45.6
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -16,
+        "y": 45.4
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -29.4,
+        "y": 41.4
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -45.9,
+        "y": -0.7
+      }
+    ],
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__id__": 0
+    },
+    "fileId": "4diQKn4SJGo6GjFC+39DT3",
+    "sync": false
+  }
+]

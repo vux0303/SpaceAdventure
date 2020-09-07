@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "blueBattleShipAnim",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.35,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "2ed6f009-ead5-44d4-b4ec-ddc2d381523b"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "b8128243-0757-4961-8b4f-ccd95f1e5ed9"
+            }
+          },
+          {
+            "frame": 0.6666666666666666,
+            "value": {
+              "__uuid__": "b989ea8a-440d-4de1-8189-f9411f59cbab"
+            }
+          },
+          {
+            "frame": 1,
+            "value": {
+              "__uuid__": "566a7895-a720-47d2-a7ed-e1a42a344df3"
+            }
+          },
+          {
+            "frame": 1.3333333333333333,
+            "value": {
+              "__uuid__": "29bc2372-2295-436a-b4ac-3074ab5df433"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

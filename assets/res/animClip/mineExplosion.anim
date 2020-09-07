@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "mineExplosion",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.43333333333333335,
+  "sample": 60,
+  "speed": 1.5,
+  "wrapMode": 0,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "d84284c8-b533-4ebc-bd8b-d0f1eebced11"
+            }
+          },
+          {
+            "frame": 0.08333333333333333,
+            "value": {
+              "__uuid__": "6620e46c-b126-4f1a-9468-9330d326c94f"
+            }
+          },
+          {
+            "frame": 0.16666666666666666,
+            "value": {
+              "__uuid__": "a08042fe-efcf-4473-a789-2ab40c1a54b2"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "9a91f7c1-399c-4aa4-a119-15792d2d859e"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "5d8f0745-9382-4a4c-b46d-a60b25b9e483"
+            }
+          },
+          {
+            "frame": 0.4166666666666667,
+            "value": {
+              "__uuid__": "942b900a-9c7e-4b61-9e3a-93e7c8c0153b"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.4166666666666667,
+      "func": "onExplosionFinish",
+      "params": []
+    }
+  ]
+}
