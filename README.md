@@ -1,12 +1,13 @@
 # SpaceAdventure
-This game demo is conducted under process of learning Cocos Creator.
+This game project is conducted under process of learning Cocos Creator.
 
-Since the game is not supposed to be published, please login with following test account:
+Since the game is not supposed to be published, please login in Facebook with following test account:
 
 Login: tkujlugwje_1598341093@tfbnw<span></span>.net  
 Password: SpaceAdventure
 
-Game link: https://fb.gg/play/vux_game
+Facebook instant game: https://fb.gg/play/vux_game  
+Github page: https://vux0303.github.io/SpaceAdventureWebBuild/
 
 Game Features:
 - Space shooter game with varius enemies, varius attack stratetry 
